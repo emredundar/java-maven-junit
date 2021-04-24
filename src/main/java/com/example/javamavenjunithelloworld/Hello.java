@@ -37,6 +37,9 @@ public class Hello {
     public void sayHello(PrintStream printer) {
         for (short i = 0; i < times; i++) {
             printer.println(HELLO + " Testing Blue Ocean");
+            String encoding = Base64Encoder.encode ("login:passwd");
+            org.apache.http.client.methods.HttpPost httppost = new HttpPost(url);
+            httppost.setHeader("Authorization", "Basic " + encoding);  // Noncompliant
         }
     }
 
