@@ -1,5 +1,5 @@
 # A Java/Maven/JUnit HelloWorld example
-# CI automation 24Nisan
+# CI automation 23 Mayis
 
 A „Hello World!” sample written in Java using Maven for the build, that showcases a few very simple tests.
 
