@@ -1,5 +1,5 @@
 # A Java/Maven/JUnit HelloWorld example
-# CI automation 5 Temmuz - quality gate
+# CI automation 11 Aralık - quality gate
 
 A „Hello World!” sample written in Java using Maven for the build, that showcases a few very simple tests.
 
